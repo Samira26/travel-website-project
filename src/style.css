@@ -17,10 +17,6 @@ body {
   width: 100%;
   display: block;
 }
-.gallery-img-responsive {
-  width: 100%;
-  display: block;
-}
 
 .photo-gallery.grid {
   grid-gap: 20px;
@@ -253,8 +249,8 @@ footer a {
     aspect-ratio: 16 / 9;
   }
 
-  .gallery-img-responsive {
-    width: 70%;
+  .photo-gallery img {
+    width: 80%;
     margin: 0 auto;
     border-radius: 5px;
   }
